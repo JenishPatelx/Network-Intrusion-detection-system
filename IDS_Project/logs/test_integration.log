@@ -1,0 +1,5 @@
+2024-11-22 09:50:55,378 - Intrusion detected at index 0: {'source_ip': '192.168.1.1', 'destination_ip': '10.0.0.2', 'protocol': 'TCP', 'is_tcp': 1}
+2024-11-22 09:53:21,044 - Intrusion detected at index 0: {'source_ip': '192.168.1.1', 'destination_ip': '10.0.0.2', 'protocol': 'TCP', 'is_tcp': 1}
+2024-11-22 10:06:42,341 - Intrusion detected at index 0: {'source_ip': '192.168.1.1', 'destination_ip': '10.0.0.2', 'protocol': 'TCP', 'is_tcp': 1}
+2024-11-22 10:06:42,344 - Intrusion detected at index 0: {'source_ip': '192.168.1.1', 'destination_ip': '10.0.0.2', 'protocol': 'TCP', 'is_tcp': 1}
+2024-11-22 10:06:42,344 - Intrusion detected at index 0: {'source_ip': '192.168.1.1', 'destination_ip': '10.0.0.2', 'protocol': 'TCP', 'is_tcp': 1}

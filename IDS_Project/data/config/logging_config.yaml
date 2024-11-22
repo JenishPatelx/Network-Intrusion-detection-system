@@ -1,0 +1,11 @@
+log_file: "logs/system.log"       # Default log file for system events
+alert_file: "logs/alerts.log"     # Log file for detection alerts
+debug_file: "logs/debug.log"      # Debug-level logging file
+
+log_levels:                       # Log levels for different types of logs
+  default: INFO
+  alerts: WARNING
+  debug: DEBUG
+
+log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+

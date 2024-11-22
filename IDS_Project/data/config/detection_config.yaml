@@ -1,0 +1,15 @@
+signature_based:                  # Configurations for signature-based detection
+  signatures:
+    - "malware_signature"
+    - "known_attack"
+  log_alerts: true
+
+anomaly_detection:                # Configurations for anomaly detection
+  model: "IsolationForest"
+  contamination: 0.1              # Fraction of outliers in the data
+  random_state: 42
+
+hybrid_model:                     # Configurations for hybrid detection
+  enable_signature_based: true
+  enable_anomaly_detection: true
+

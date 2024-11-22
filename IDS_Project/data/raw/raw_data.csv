@@ -1,0 +1,12 @@
+ID,Name,Age,Gender,Location
+1,John,25,Male,New York
+2,Jane,28,Female,Los Angeles
+3,John,25,Male,New York
+4,Lucy,30,Female,Chicago
+5,Mark,,Male,San Francisco
+6,Jane,28,Female,Los Angeles
+7,Anna,22,Female,Miami
+8,Mark,27,Male,San Francisco
+9,,30,Male,Chicago
+10,Anna,22,Female,Miami
+

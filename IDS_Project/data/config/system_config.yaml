@@ -1,0 +1,13 @@
+network_monitoring:               # Network monitoring configurations
+  interface: "eth0"               # Interface to capture traffic
+  packet_count: 50                # Number of packets to capture per sniff
+
+system_monitoring:                # System monitoring configurations
+  cpu_threshold: 85               # CPU usage percentage for alerting
+  memory_threshold: 80            # Memory usage percentage for alerting
+
+data_pipeline:                    # Data pipeline configurations
+  raw_data_dir: "data/raw/"
+  processed_data_dir: "data/processed/"
+  models_dir: "data/models/"
+
